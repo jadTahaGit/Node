@@ -1,0 +1,8 @@
+- Download REST CLient Extension:
+
+- Add this to package.json:
+----------------------------
+
+  "start": "node index.js"   // for npm start insted of node index.js
+  
+   "type": "module"   // For using import {} from "..." instead of require.

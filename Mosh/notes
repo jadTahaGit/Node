@@ -1,0 +1,57 @@
+Non-blocking || Asynchronous : (Node JS)
+------------------------------
+- Single Thread is used to handle multiple requests.
+-  The Thread does not wait for the Database.
+-  Event Queue will be created 
+-  When the thread find an event in the queue -> it process it
+
+Node good for:
+---------------
+- Serve more clients withou a lot of hardware.
+- Nodejs  is scalable.
+- Good Data Intensive and Real Time applications.
+- Apps with a lot of disk or network access.
+- Node is ideal for I/O intensive apps.
+- Don't use Node for CPU-intensive apps.
+
+
+
+blocking || Synchronous :
+-------------------------
+ASP.net || Rails
+
+All threads are busy!
+Large Number? Wait till 3 thrails are available.
+Or add some Hardware.
+
+- you could make ASP Asynchronous but we need to make some extra works.
+
+
+
+Mosh Course Being about:
+-------------------------
+
+- Node Package Manager (NPM)
+- Asynchronous javascript
+- CRUD Operations 
+- Data Validation
+- Authentication & Authorization.
+- Handling and Logging Errors
+- Unit and Integration Testing
+- Test-driven Development
+- Deployment to the cloud.
+- Clean Coding and Refactoring.
+- Security Best Practices.
+- Useful Libraries
+- Common mistakes to avoid.
+
+
+Event:
+-------
+- A signal that something had happend.
+Example:
+- HTTP-Class: used to build a web server 
+- the http class listen to a specific port. 
+- Everytime we recieve a request on this port.
+- The class raises an event.
+- Our job is to response to that event. (by reading the event & giving back the right respond).

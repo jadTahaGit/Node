@@ -1,0 +1,98 @@
+What is NodeJS?
+----------------
+
+- JavaScript Runtime (Not a language or a framework).
+- Built on the V8 JavaScript engine (same as Google Chrome).
+- Written in C++.
+- Esentially allows us to run JavaScript code on the server.
+
+What should you know first:
+---------------------------
+- JavaScript Fundementals (objects, Arrays, Conditionals, etc).
+- HTTP (status codes, headers, etc).
+- Json
+- Arrow Functions 
+- Promises 
+- MVC Pattern.
+
+
+Why use Node?
+--------------
+- Fast, efficient and highly scalable.
+- Eventdriven, non blocking I/O model.
+- Popular in the industry
+- Same language on the front and back end (JS)
+
+
+- NOn-Blocking I/O:
+----------------------
+- Works on a single thread using non-blocking I\O calls.
+- Supports tens of thousands concurrent connections
+- Optimize throughput & scalablility in apps with many I/O operations
+- All of this makes Node.js apps very Fast & efficient.
+
+
+
+Node's Event Loop:
+--------------------
+- Single threaded.
+- Supports concurrency via event & callbacks.
+- EventEmitter class is used to bind events and listeners.
+
+
+
+Best types of projects for node:
+--------------------------------
+Short Answer: anything that is not CPU intensive.
+
+- REST API & Microservices.
+- Real Time Services (Chat, Live Updates).
+- CRUD Apps - Blogs, Shopping Carts, Social Networks.
+- Tools & Utilities.
+
+
+NPM: Node Package Manager:
+--------------------------
+- Install 3rd party Packages (frameworks, libraries, tools, etc).
+- Packages get stored in the node_modules folder.
+- All dependencies are listed in a "package.json" file.
+- NPM scripts can be created to run certain tasks such as run a server.
+
+Commands:
+----------
+npm init
+npm install express           
+npm install -g nodemon
+
+
+Node Modules:
+--------------
+- Node Core Modules (path, fs, http, etc).
+- 3rd party modules/packages installed via NPM.
+- Custom modules (files)
+
+const path = require ('path');
+const myFile =  require ('./myFile')
+
+
+
+From another computer:
+----------------------
+All the needed stuff woul be installed:
+- npm install
+
+- npm install uuid
+- npm install -D nodemon   || npm install --save-dev nodemon
+
+
+Usage:
+-------
+package.json:
+--------------
+After having the pacckage.json we could delete the node_modules 
+and then just by typing npm install 
+the needed libraries and packages will be installed
+
+package-lock.json:
+------------------
+- saves the dependencies with the versions...
